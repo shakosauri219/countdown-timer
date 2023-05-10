@@ -1,0 +1,159 @@
+body {
+    background: linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%);
+    background-repeat: no-repeat;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 700;
+    width: 100%;
+}
+
+.stars {
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 688px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hills {
+    width: 100%;
+}
+
+.header {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 6.13636px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 142px;
+    width: 327px;
+}
+
+.countdown {
+    margin-top: 54px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.count {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #343650;
+    border-radius: 4px;
+}
+
+.count p{
+    font-size: 36px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.08px;
+    color: #FB5E84;
+}
+
+.count h3 {
+    margin-top: 14px;
+    font-size: 7px;
+    line-height: 9px;
+    text-align: center;
+    letter-spacing: 2.95937px;
+    color: #8385A9;
+    text-transform: uppercase;
+}
+
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 168px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.soc {
+    display: flex;
+    flex-direction: row;
+    width: 136px;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.hills {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
+
+.soc img:hover {
+    cursor: pointer;
+    filter: invert(55%) sepia(79%) saturate(2010%) hue-rotate(309deg) brightness(97%) contrast(104%);
+}
+
+@media screen and (min-width: 1440px) {
+    .header {
+        font-size: 22px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 7.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: unset;
+    }
+
+    .countdown {
+        margin-top: 104px;
+        gap: 32px;
+    }
+
+    .count {
+        width: 148px;
+        height: 132px;
+        justify-content: center;
+    }
+
+    .count p {
+        font-size: 80px;
+        line-height: 71px;
+        text-align: center;
+        letter-spacing: -2.4px;
+        color: #FB5E84;
+    }
+
+    .count h3 {
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 5.91875px;
+        color: #8385A9;
+        position: absolute;
+        margin-top: 174px;
+    }
+
+    .container{
+        height: 700px;
+    }
+}
+
+@media screen and (min-height: 829px ) {
+    .container{
+        height: 1220px;
+    }
+}
+
+
